@@ -1,0 +1,17 @@
+.content {
+  margin-top: 25px;
+  text-align: left;
+  position: relative;
+
+  .title {
+    font-size: 38px;
+    color: dimgray;
+    display: block;
+  }
+
+  .body {
+    font-size: 18px;
+    color: dimgray;
+    width: 100%;
+  }
+}

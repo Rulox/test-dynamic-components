@@ -1,0 +1,23 @@
+.wrapper {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+
+input[type=text], textarea {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &.edit {
+    border: 1px solid red;
+  }
+}
